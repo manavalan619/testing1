@@ -1,0 +1,414 @@
+{
+    "flow": [{
+            "_id": "a332b4a1-7619-11e9-8b28-fb1133df238c",
+            "name": "GpDeleteNounRelationship",
+            "label": "deleteNounRelationship",
+            "description": "Delete the noun Relationship",
+            "flag": "inactive",
+            "type": "complex",
+            "components": [
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpDeleteNounRelationship",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a332b4a0-7619-11e9-8b28-fb1133df238c",
+            "name": "GpFileUpload",
+            "label": "uploadFile",
+            "flag": "inactive",
+            "description": "upload file to server or database",
+            "type": "complex",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpFileUpload",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3328d94-7619-11e9-8b28-fb1133df238c",
+            "name": "GpDeleteNounByRelation",
+            "label": "deleteNounByRelation",
+            "flag": "inactive",
+            "description": "Delete the noun by parent relaion",
+            "type": "complex",
+            "components": [
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpDeleteNounByRelation",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3328d93-7619-11e9-8b28-fb1133df238c",
+            "name": "GpCancel",
+            "label": "cancel",
+            "flag": "inactive",
+            "description": "back to previous page",
+            "type": "basic",
+            "components": [],
+            "actionOnData": "GpCancel",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3328d92-7619-11e9-8b28-fb1133df238c",
+            "name": "GpGetNounFromRelation",
+            "label": "getNounFromRelation",
+            "flag": "inactive",
+            "description": "Get the noun through relation for multiselect",
+            "type": "complex",
+            "components": [
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpGetNounFromRelation",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3328d91-7619-11e9-8b28-fb1133df238c",
+            "name": "GpAppStartup",
+            "label": "whileAppOpen",
+            "flag": "inactive",
+            "description": "when happen when you open your app",
+            "type": "complex",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+
+            ],
+            "actionOnData": "GpAppStartup",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3328d90-7619-11e9-8b28-fb1133df238c",
+            "name": "GpGridExportCSV",
+            "label": "gridExportCSV",
+            "flag": "inactive",
+            "description": "To exportbtable content",
+            "type": "complex",
+            "components": [
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpGridExportCSV",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3326684-7619-11e9-8b28-fb1133df238c",
+            "name": "GpCreateRelationship",
+            "label": "createRelationship",
+            "flag": "inactive",
+            "description": "Create With Multiple Select Dropdown",
+            "type": "complex",
+            "components": [],
+            "actionOnData": "GpCreateRelationship",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3326683-7619-11e9-8b28-fb1133df238c",
+            "name": "GpRecordVideo",
+            "label": "takeVideo",
+            "flag": "inactive",
+            "description": "use to record a video - need device that supports camera",
+            "type": "complex",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpRecordVideo",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3326682-7619-11e9-8b28-fb1133df238c",
+            "name": "GpGetNounByRelationship",
+            "label": "getNounByRelationship",
+            "flag": "inactive",
+            "description": "Get noun by relationship",
+            "type": "complex",
+            "components": [
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpGetNounByRelationship",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3326681-7619-11e9-8b28-fb1133df238c",
+            "name": "GpSearchDetail",
+            "label": "searchDetail",
+            "flag": "inactive",
+            "description": "special search for locking a noun details",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpSearchDetail",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3326680-7619-11e9-8b28-fb1133df238c",
+            "name": "GpTakePhoto",
+            "label": "takePhoto",
+            "flag": "inactive",
+            "description": "use to take a pictutre - need device that supports camera",
+            "type": "complex",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpTakePhoto",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a331a331-7619-11e9-8b28-fb1133df238c",
+            "name": "GpCustom",
+            "label": "customVerb",
+            "flag": "inactive",
+            "description": "user defined verb",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpCustom",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a331a330-7619-11e9-8b28-fb1133df238c",
+            "name": "GpGetNounById",
+            "label": "getById",
+            "flag": "active",
+            "description": "special search that fetches one value",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpGetNounById",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3317c21-7619-11e9-8b28-fb1133df238c",
+            "name": "GpDeleteByParentId",
+            "label": "deleteByParentId",
+            "flag": "inactive",
+            "description": "delete noun by parent id",
+            "type": "basic",
+            "components": [
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpDeleteByParentId",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a3317c20-7619-11e9-8b28-fb1133df238c",
+            "name": "GpGetNounByParentId",
+            "label": "getByParentId",
+            "flag": "inactive",
+            "description": "get noun by parent id",
+            "type": "basic",
+            "components": [
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpGetNounByParentId",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a330b8d2-7619-11e9-8b28-fb1133df238c",
+            "name": "GpSearchForUpdate",
+            "label": "seachForUpdate",
+            "flag": "active",
+            "description": "special search for locking a noun",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpSearchForUpdate",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a330b8d1-7619-11e9-8b28-fb1133df238c",
+            "name": "GpGetAllValues",
+            "label": "getAllRecord",
+            "flag": "active",
+            "description": "special search that gets all values",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpGetAllValues",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 1
+        }, {
+            "_id": "86258750-7003-11e9-bc38-a5d67b7d1e0e",
+            "name": "GpCreate",
+            "label": "save",
+            "flag": "active",
+            "description": "creates a noun",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpCreate",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 1
+        },
+        {
+            "_id": "8622c830-7003-11e9-bc38-a5d67b7d1e0e",
+            "name": "GpDelete",
+            "label": "delete",
+            "flag": "active",
+            "description": "deletes a noun",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpDelete",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 1
+        },
+        {
+            "_id": "a330b8d0-7619-11e9-8b28-fb1133df238c",
+            "name": "GpSearch",
+            "label": "search",
+            "flag": "active",
+            "description": "searches a noun",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpSearch",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 0
+        },
+        {
+            "_id": "a33043a1-7619-11e9-8b28-fb1133df238c",
+            "name": "GpUpdate",
+            "label": "update",
+            "flag": "active",
+            "description": "updates a noun",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33350e1-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c",
+                "a33377f3-7619-11e9-8b28-fb1133df238c",
+                "a332b4a1-7619-11e9-8b28-fb1133df238c",
+                "a33377f2-7619-11e9-8b28-fb1133df238c",
+                "a3339f00-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpUpdate",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 1
+        },
+        {
+            "_id": "a33043a1-7619-11e9-8b28-fb1133df239c",
+            "name": "GpRoute",
+            "label": "route",
+            "flag": "inactive",
+            "description": "redirect to other screen",
+            "type": "basic",
+            "components": [
+                "a332b4a2-7619-11e9-8b28-fb1133df238c",
+                "a33377f1-7619-11e9-8b28-fb1133df238c"
+            ],
+            "actionOnData": "GpRoute",
+            "flowType":"GeppettoFlow",
+            "createWithDefaultActivity": 1
+        }
+    ]
+}
